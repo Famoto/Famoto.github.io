@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://famoto.github.io/</loc>
+    </url>
+    <url>
+        <loc>https://famoto.github.io/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://famoto.github.io/readme/</loc>
+        <lastmod>2025-05-23</lastmod>
+    </url>
+    <url>
+        <loc>https://famoto.github.io/tags/</loc>
+    </url>
+    <url>
+        <loc>https://famoto.github.io/tags/github-pages/</loc>
+    </url>
+    <url>
+        <loc>https://famoto.github.io/tags/static-site/</loc>
+    </url>
+    <url>
+        <loc>https://famoto.github.io/tags/zola/</loc>
+    </url>
+</urlset>

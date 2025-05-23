@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Famoto blog</title>
+    <subtitle>A nerd about everything</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://famoto.github.io/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://famoto.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-05-23T00:00:00+00:00</updated>
+    <id>https://famoto.github.io/atom.xml</id>
+    <entry xml:lang="en">
+        <title>test</title>
+        <published>2025-05-23T00:00:00+00:00</published>
+        <updated>2025-05-23T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Famoto
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://famoto.github.io/readme/"/>
+        <id>https://famoto.github.io/readme/</id>
+        
+        <content type="html" xml:base="https://famoto.github.io/readme/">&lt;h1 id=&quot;readme&quot;&gt;README&lt;&#x2F;h1&gt;
+&lt;p&gt;-&amp;gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;table-of-content&quot;&gt;Table of content&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;famoto.github.io&#x2F;readme&#x2F;#shortcuts&quot;&gt;1. Shortcuts&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;famoto.github.io&#x2F;readme&#x2F;#commands&quot;&gt;2. Commands&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;shortcuts&quot;&gt;Shortcuts&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;code&gt;shift+h&#x2F;l&lt;&#x2F;code&gt; to switch from file browser to file viewer&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;code&gt;j&#x2F;k&lt;&#x2F;code&gt; to scroll through the file content&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;code&gt;j&#x2F;k&lt;&#x2F;code&gt; to go through files in file browser&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;code&gt;enter&lt;&#x2F;code&gt; to open the currently selected file&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;code&gt;esc+command&lt;&#x2F;code&gt; see &lt;a href=&quot;https:&#x2F;&#x2F;famoto.github.io&#x2F;readme&#x2F;#Commands&quot;&gt;## Commands&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;code&gt;shift+t&#x2F;enter&lt;&#x2F;code&gt; to open the file in a new tab&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;code&gt;tab&lt;&#x2F;code&gt; to go to the next tab&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;code&gt;shift+q&lt;&#x2F;code&gt; to close the current tab&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;Rust&quot; style=&quot;background-color:#282a36;color:#f8f8f2;&quot; class=&quot;language-Rust &quot;&gt;&lt;code class=&quot;language-Rust&quot; data-lang=&quot;Rust&quot;&gt;&lt;span&gt;    
+&lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#8be9fd;&quot;&gt;impl &lt;&#x2F;span&gt;&lt;span&gt;Record &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffffff;&quot;&gt;{
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#8be9fd;&quot;&gt;const fn &lt;&#x2F;span&gt;&lt;span style=&quot;color:#50fa7b;&quot;&gt;default&lt;&#x2F;span&gt;&lt;span&gt;() &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff79c6;&quot;&gt;-&amp;gt; &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#8be9fd;&quot;&gt;Self &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffffff;&quot;&gt;{
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#8be9fd;&quot;&gt;Self &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffffff;&quot;&gt;{
+&lt;&#x2F;span&gt;&lt;span&gt;            count: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bd93f9;&quot;&gt;0&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;            min: &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#8be9fd;&quot;&gt;i32&lt;&#x2F;span&gt;&lt;span style=&quot;text-decoration:underline;color:#ff79c6;&quot;&gt;::&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bd93f9;&quot;&gt;MAX&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;            max: &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#8be9fd;&quot;&gt;i32&lt;&#x2F;span&gt;&lt;span style=&quot;text-decoration:underline;color:#ff79c6;&quot;&gt;::&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bd93f9;&quot;&gt;MIN&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;            sum: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bd93f9;&quot;&gt;0&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffffff;&quot;&gt;}
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffffff;&quot;&gt;}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h2 id=&quot;commands&quot;&gt;Commands&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;code&gt;:help&lt;&#x2F;code&gt; to show this page&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;code&gt;:q&lt;&#x2F;code&gt; exit website&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;code&gt;:set mouse=true|false&lt;&#x2F;code&gt; to set the mouse (true=showed, false=hidden)&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
